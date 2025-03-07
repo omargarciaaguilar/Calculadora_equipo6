@@ -6,10 +6,16 @@ int suma(int a, int b){
 }
 
 ////aqui va la funcion resta
+// Funcion-resta
 int resta(int a, int b){
 	return a-b;
 }
-////aqui va la funcion division
+
+
+//Función división.
+int division(int x, int y){
+	return x/y;
+} 
 
 
 
