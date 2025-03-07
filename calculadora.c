@@ -6,7 +6,9 @@ int suma(int a, int b){
 }
 
 ////aqui va la funcion resta
-
+int resta(int a, int b){
+	return a-b;
+}
 ////aqui va la funcion division
 
 
