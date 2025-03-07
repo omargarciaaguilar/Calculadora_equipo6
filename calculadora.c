@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 ////aqui va la funcion suma
+int suma(int a, int b){
+	return a+b;
+}
 
 ////aqui va la funcion resta
 
