@@ -6,7 +6,31 @@
 
 ////aqui va la funcion division
 
-/////aqui va la funcion multiplicaicon 
+
+
+// Función para multiplicar dos números
+float multiplicar(float num1, float num2) {
+    return num1 * num2;
+}
+
+int main() {
+    float a, b, resultado;
+
+    // Solicitar al usuario los dos números
+    printf("Introduce el primer número: ");
+    scanf("%f", &a);
+    printf("Introduce el segundo número: ");
+    scanf("%f", &b);
+
+    // Llamar a la función multiplicar
+    resultado = multiplicar(a, b);
+
+    // Mostrar el resultado
+    printf("El resultado de la multiplicación es: %.2f\n", resultado);
+
+    return 0;
+}
+ 
 
 
 
