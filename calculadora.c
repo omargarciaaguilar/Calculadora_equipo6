@@ -7,8 +7,10 @@ int suma(int a, int b){
 
 ////aqui va la funcion resta
 
-////aqui va la funcion division
-
+//Función división.
+int division(int x, int y){
+	return x/y;
+} 
 
 
 // Función para multiplicar dos números
